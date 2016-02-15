@@ -145,14 +145,14 @@ img {
 /* ========== JUMBOTRON =============*/
 
 .jumbotron {
-	background-image: url("../img/background01.jpg");
+	background: url("../img/background01.jpg") no-repeat fixed right top;
 	padding: 0;
-	background-repeat: no-repeat;
-	background-position: right top;
-    background-attachment: fixed;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	background-size: cover;
+  	-o-background-size: cover;
     height: 100vh;
     width: auto;
-    background-size: auto;
     position: relative;
     overflow: hidden;
 }
