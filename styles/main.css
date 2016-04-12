@@ -677,6 +677,15 @@ footer {
     color: #fff;
 }
 
+.designed a {
+	color: #ccc;
+}
+
+.designed a:hover {
+	color: #fff;
+	background-color: transparent;
+}
+
 @media screen and (max-width: 900px){
 	.counter {
 		min-height: 350px;
